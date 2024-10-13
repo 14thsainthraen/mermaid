@@ -1,0 +1,25 @@
+graph TD
+    A[Put on PPE: lab coat, goggles, gloves] --> B[Clean work area with 70% ethanol]
+    B --> C[Light Bunsen burner]
+    C --> D[Gather sterile materials]
+    D --> E[Flame sterilize inoculating loop]
+    E --> F{Using culture tube?}
+    F -->|Yes| G[Remove tube cap without setting it down]
+    F -->|No| H[Open culture plate near flame]
+    G --> I[Flame tube mouth]
+    H --> J[Transfer sample using sterile technique]
+    I --> J
+    J --> K{Using culture tube?}
+    K -->|Yes| L[Re-flame tube mouth]
+    K -->|No| M[Close culture plate]
+    L --> N[Replace tube cap]
+    M --> O[Flame sterilize loop again]
+    N --> O
+    O --> P{More transfers needed?}
+    P -->|Yes| E
+    P -->|No| Q[Turn off Bunsen burner]
+    Q --> R[Dispose of materials in biohazard container]
+    R --> S[Clean work area again]
+    S --> T[Remove PPE: gloves, coat, goggles]
+    T --> U[Wash hands thoroughly]
+    U --> V[Record in lab notebook]
